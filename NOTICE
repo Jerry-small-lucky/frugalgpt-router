@@ -41,3 +41,7 @@ internet as-is (no authentication, no rate limiting, demo-only).
 
 This repository depends only on the Python standard library at runtime.
 See `pyproject.toml` for packaging metadata.
+
+## Paper copyright
+
+The companion research paper `docs/Evaluation-Driven-Release-Governance-Paper.pdf` is Copyright (c) 2026 Jiarui Wang, released under the Creative Commons Attribution 4.0 International (CC BY 4.0). Attribution required. See `docs/LICENSE-paper`.

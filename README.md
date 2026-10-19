@@ -147,6 +147,12 @@ python tests/test_smoke.py
 
 详见 [`LICENSE`](LICENSE) 与 [`NOTICE`](NOTICE)。
 
+## 论文与文档许可
+
+本仓库随附的研究论文 **《Evaluation-Driven Release Governance for LLM Routing in Production: A Case Study of FrugalGPT Router Pro × Aegis》**（`docs/Evaluation-Driven-Release-Governance-Paper.pdf`）版权归 **Jiarui Wang（王家睿）© 2026**，以 **CC BY 4.0**（知识共享-署名 4.0 国际）发布：允许复制、分发、修改与再使用，但必须保留作者署名与来源链接，不得以误导方式宣称非作者本人作品。论文全文与证据文件（`repro_evidence/`）配套公开，任何引用均须注明出处。
+
+仓库创建于 2026-10，Git 提交历史（含 `docs/` 论文 PDF 的每次更新）构成论文与代码的完整时间戳证据链；论文证据映射见 [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)。
+
 ## 作者
 
 Jiarui Wang · [GitHub @Jerry-small-lucky](https://github.com/Jerry-small-lucky) · [ORCID 0009-0006-5054-6062](https://orcid.org/0009-0006-5054-6062)
