@@ -1,0 +1,48 @@
+{
+  "version": "1.20.0",
+  "as_of": "2026-10-14T00:44:00+08:00",
+  "authoritative": {
+    "cost_saving_rate": 0.3392,
+    "quality_kept_rate": 0.8865,
+    "decision_p99_us": 8650,
+    "window": {
+      "audit_rows": 384,
+      "routable_rows": 282,
+      "judge_samples": 185
+    },
+    "baseline": "全 Heavy 同批请求（token 账单口径）",
+    "gate_passed": false,
+    "online_router_version": "v7"
+  },
+  "sales_promise": {
+    "cost_saving_range": [0.20, 0.25],
+    "quality_floor": 0.90,
+    "note": "对外只承诺行业可辩护区间 20–25%；实测值作为证据披露，不作为普遍承诺。"
+  },
+  "historical_only": {
+    "bench2000_cost_saving_range": [0.36, 0.51],
+    "bench2000_quality": "质量持平（2000 题×5 厂商，2026-10-07 复测）",
+    "n11_internal": {"cost_saving_rate": 0.603, "quality_kept_rate": 1.0, "p99_us": 4600, "n": 11},
+    "routerbench_0shot": {"cost_saving_rate": 0.843, "quality_kept_rate": 1.02},
+    "gsm8k_mmlu_300": {"cost_saving_rate": 0.475, "quality_kept_rate": 0.989},
+    "note": "仅作算法回归与背景，禁止作为对外主口径单独引用。"
+  },
+  "forbidden_public": [
+    "36%–51%",
+    "36%-51%",
+    "36–51%",
+    "36-51%",
+    "59.65%",
+    "60.3%",
+    "98.9%",
+    "47.5%",
+    "省 80%",
+    "节省 50% 以上",
+    "50%+",
+    "质量保持率 ≥95%",
+    "质量保持 ≥95%",
+    "平均节省 ≥50%"
+  ],
+  "required_caveat": "评估门 2026-10-14 记录 passed=false（节省/质量低于红线阈值），在线仍为 v7；33.92%/0.8865 为该窗口实测，非普遍承诺。",
+  "updated_by": "口径收敛 v1.20.0（2026-10-18）"
+}

@@ -1,0 +1,43 @@
+# NOTICE
+
+frugalgpt-router（Community Edition）
+Copyright 2026 Jiarui Wang (FrugalGPT Router Project)
+
+This repository is the **Community Edition** of the FrugalGPT routing concept.
+It is licensed under the **FrugalGPT Community License 1.0 (Source-Available)**
+(see `LICENSE`) — **not** an OSI-approved open-source license.
+
+## Scope of the Community License
+
+The Community License applies **only to the source code in this repository**.
+It does **not** apply to:
+
+- FrugalGPT Router Pro / Enterprise (the commercial products);
+- the commercial routing engine, learned scorer, semantic ANN router,
+  closed-loop training/release pipeline, audit evidence chain;
+- model weights (`*.pkl`, `*.npz`), baseline data, evaluation benchmarks,
+  judge/scoring data, or customer data.
+
+The commercial products are **proprietary and closed-source**. No source code,
+algorithm, weight, baseline, benchmark, or training data is provided with them.
+See the commercial EULA for the terms that apply to those products.
+
+## Use boundaries
+
+- Personal study, academic research, and 30-day evaluation: free.
+- Commercial production use, offering a routing service to third parties,
+  or competing/replicating the commercial products: **requires a separate
+  written commercial license**.
+- On 2030-10-18 this version converts to Apache-2.0.
+
+## No warranty for the Community Edition
+
+The Community Edition is a demonstration/reference implementation. It is provided
+"AS IS", without warranties or conditions of any kind. It does not achieve the
+performance of the commercial products, and must not be exposed to the public
+internet as-is (no authentication, no rate limiting, demo-only).
+
+## Third-party components
+
+This repository depends only on the Python standard library at runtime.
+See `pyproject.toml` for packaging metadata.

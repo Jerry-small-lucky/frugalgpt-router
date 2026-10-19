@@ -1,0 +1,92 @@
+{
+  "last_version": 17,
+  "versions": [
+    {
+      "version": 7,
+      "created_at": "2026-10-08T21:14:23",
+      "model_path": "data/customer_router_v7.pkl",
+      "samples": null,
+      "val_acc": 0.982,
+      "theta": 0.4,
+      "status": "full",
+      "gate_passed": false,
+      "note": "v7 全量发布（历史 skip-gate，gate_passed=false）；v1.20 补登台账，仅用于追溯，不代表已过门。"
+    },
+    {
+      "version": 14,
+      "created_at": "2026-10-13T20:58:40",
+      "model_path": "data/customer_router_v14.pkl",
+      "samples_jsonl": "C:\\Users\\37595\\Desktop\\企业产品\\03_交付_Delivery\\frugalgpt-router-pro\\data\\retrain_samples_v14.jsonl",
+      "samples": 64,
+      "tier_distribution": {
+        "Medium": 6,
+        "Light": 10,
+        "Heavy": 48
+      },
+      "val_acc": 1.0,
+      "theta": 0.4,
+      "quality_threshold": 0.6,
+      "shadow_suggestions": 71,
+      "quality_boost": 0,
+      "switched": false,
+      "status": "rejected",
+      "note": "2026-10-13 判定不发布：同一168题离线对比 v14 相对 v7 成本+124.6%（v14 71%判Heavy、节省仅22.3% vs v7 65.4%）；A/B线上 candidate 42条同样偏 Heavy；训练样本少泛化差。v7 保持在线。",
+      "ab_ratio": 0.25,
+      "promoted_at": "2026-10-13T22:31:20",
+      "rejected_at": "2026-10-13T23:29:07"
+    },
+    {
+      "version": 15,
+      "created_at": "2026-10-14T00:00:00",
+      "model_path": "data/customer_router_v15.pkl",
+      "samples": 262,
+      "val_acc": null,
+      "theta": 0.4,
+      "status": "candidate",
+      "gate_passed": false,
+      "note": "2026-10-14 训练 262 样本；同题决策准确率 17.4% vs v7 78.7%、盲评 Δ+3.06pp、A/B 质量 Δ−61.29pp → 相对择优未过，保持 candidate。"
+    },
+    {
+      "version": 16,
+      "created_at": "2026-10-18T17:04:10",
+      "model_path": "C:\\Users\\37595\\Desktop\\企业产品\\05_组合_Combo\\闭环_ClosedLoop\\data\\customer_router_v16.pkl",
+      "samples_jsonl": "C:\\Users\\37595\\Desktop\\企业产品\\05_组合_Combo\\闭环_ClosedLoop\\data\\retrain_samples_v16.jsonl",
+      "samples": 277,
+      "tier_distribution": {
+        "Medium": 49,
+        "Heavy": 89,
+        "Light": 139
+      },
+      "val_acc": 0.625,
+      "theta": 0.4,
+      "quality_threshold": 0.6,
+      "shadow_suggestions": 906,
+      "quality_boost": 26,
+      "switched": false,
+      "status": "candidate",
+      "note": "候选版本；切换需评估门 PASS + P2 发布机制。",
+      "trained_on": "auto-retrain:v16"
+    },
+    {
+      "version": 17,
+      "created_at": "2026-10-18T17:05:50",
+      "trained_on": "auto-retrain:v17",
+      "model_path": "C:\\Users\\37595\\Desktop\\企业产品\\05_组合_Combo\\闭环_ClosedLoop\\data\\customer_router_v17.pkl",
+      "samples_jsonl": "C:\\Users\\37595\\Desktop\\企业产品\\05_组合_Combo\\闭环_ClosedLoop\\data\\retrain_samples_v17.jsonl",
+      "samples": 277,
+      "tier_distribution": {
+        "Medium": 49,
+        "Heavy": 89,
+        "Light": 139
+      },
+      "val_acc": 0.625,
+      "theta": 0.4,
+      "quality_threshold": 0.6,
+      "shadow_suggestions": 906,
+      "quality_boost": 26,
+      "switched": false,
+      "status": "candidate",
+      "note": "候选版本；切换需评估门 PASS + P2 发布机制。"
+    }
+  ]
+}

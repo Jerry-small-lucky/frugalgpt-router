@@ -1,0 +1,802 @@
+{
+  "manifest": 2000,
+  "seed": 42,
+  "rows": [
+    {
+      "vendor": "deepseek",
+      "acc": {
+        "light": {
+          "V": 89.82346832814122,
+          "S": 89.82346832814122,
+          "F": 86.5
+        },
+        "heavy": {
+          "V": 97.20514253773057,
+          "S": 96.875,
+          "F": 89.9
+        },
+        "rule": {
+          "V": 94.9748743718593,
+          "S": 94.77408818726184,
+          "F": 87.05000000000001
+        },
+        "learned": {
+          "V": 93.73988127361037,
+          "S": 93.64406779661016,
+          "F": 88.4
+        }
+      },
+      "n": {
+        "light": {
+          "V": 1926,
+          "S": 1926,
+          "F": 2000
+        },
+        "heavy": {
+          "V": 1789,
+          "S": 1856,
+          "F": 2000
+        },
+        "rule": {
+          "V": 1791,
+          "S": 1837,
+          "F": 2000
+        },
+        "learned": {
+          "V": 1853,
+          "S": 1888,
+          "F": 2000
+        }
+      },
+      "cost": {
+        "light": 4.2945079999999995,
+        "heavy": 15.167463999999983,
+        "rule": 10.398426000000013,
+        "learned": 9.643724000000008
+      }
+    },
+    {
+      "vendor": "zhipu",
+      "acc": {
+        "light": {
+          "V": 96.23115577889448,
+          "S": 96.23115577889448,
+          "F": 76.6
+        },
+        "heavy": {
+          "V": 96.62790697674419,
+          "S": 96.26825310978907,
+          "F": 89.0
+        },
+        "rule": {
+          "V": 96.12068965517241,
+          "S": 95.7582800697269,
+          "F": 82.39999999999999
+        },
+        "learned": {
+          "V": 96.81681681681683,
+          "S": 96.63573085846868,
+          "F": 83.3
+        }
+      },
+      "n": {
+        "light": {
+          "V": 1592,
+          "S": 1592,
+          "F": 2000
+        },
+        "heavy": {
+          "V": 1720,
+          "S": 1849,
+          "F": 2000
+        },
+        "rule": {
+          "V": 1624,
+          "S": 1721,
+          "F": 2000
+        },
+        "learned": {
+          "V": 1665,
+          "S": 1724,
+          "F": 2000
+        }
+      },
+      "cost": {
+        "light": 0.36152719999999977,
+        "heavy": 23.816345000000002,
+        "rule": 11.818015799999989,
+        "learned": 11.79927780000002
+      }
+    },
+    {
+      "vendor": "silicon",
+      "acc": {
+        "light": {
+          "V": 80.80862533692722,
+          "S": 80.80862533692722,
+          "F": 74.95
+        },
+        "heavy": {
+          "V": 88.04523424878838,
+          "S": 88.0127863612147,
+          "F": 82.6
+        },
+        "rule": {
+          "V": 83.4056399132321,
+          "S": 83.41463414634146,
+          "F": 76.95
+        },
+        "learned": {
+          "V": 84.44206008583691,
+          "S": 84.38998401704848,
+          "F": 79.2
+        }
+      },
+      "n": {
+        "light": {
+          "V": 1855,
+          "S": 1855,
+          "F": 2000
+        },
+        "heavy": {
+          "V": 1857,
+          "S": 1877,
+          "F": 2000
+        },
+        "rule": {
+          "V": 1844,
+          "S": 1845,
+          "F": 2000
+        },
+        "learned": {
+          "V": 1864,
+          "S": 1877,
+          "F": 2000
+        }
+      },
+      "cost": {
+        "light": 0.3088606500000005,
+        "heavy": 3.457205500000002,
+        "rule": 1.4662983999999994,
+        "learned": 1.8099777499999985
+      }
+    },
+    {
+      "vendor": "stepfun",
+      "acc": {
+        "light": {
+          "V": 61.769911504424776,
+          "S": 61.769911504424776,
+          "F": 52.37618809404702
+        },
+        "heavy": {
+          "V": 98.18577648766328,
+          "S": 96.81933842239185,
+          "F": 77.97131147540983
+        },
+        "rule": {
+          "V": 72.95681063122925,
+          "S": 73.57774968394438,
+          "F": 58.81758463870642
+        },
+        "learned": {
+          "V": 77.33674775928297,
+          "S": 78.11934900542495,
+          "F": 65.68677141409022
+        }
+      },
+      "n": {
+        "light": {
+          "V": 1695,
+          "S": 1695,
+          "F": 1999
+        },
+        "heavy": {
+          "V": 1378,
+          "S": 1572,
+          "F": 1952
+        },
+        "rule": {
+          "V": 1505,
+          "S": 1582,
+          "F": 1979
+        },
+        "learned": {
+          "V": 1562,
+          "S": 1659,
+          "F": 1973
+        }
+      },
+      "cost": {
+        "light": 0.6188882999999988,
+        "heavy": 26.477819999999987,
+        "rule": 10.813527099999998,
+        "learned": 12.882444999999997
+      }
+    },
+    {
+      "vendor": "gitee",
+      "acc": {
+        "light": {
+          "V": 81.60427807486631,
+          "S": 81.60427807486631,
+          "F": 76.3
+        },
+        "heavy": {
+          "V": null,
+          "S": null,
+          "F": null
+        },
+        "rule": {
+          "V": 86.68754894283477,
+          "S": 86.68754894283477,
+          "F": 79.64028776978417
+        },
+        "learned": {
+          "V": 84.0,
+          "S": 84.0,
+          "F": 80.18181818181817
+        }
+      },
+      "n": {
+        "light": {
+          "V": 1870,
+          "S": 1870,
+          "F": 2000
+        },
+        "heavy": {
+          "V": 0,
+          "S": 0,
+          "F": 0
+        },
+        "rule": {
+          "V": 1277,
+          "S": 1277,
+          "F": 1390
+        },
+        "learned": {
+          "V": 1050,
+          "S": 1050,
+          "F": 1100
+        }
+      },
+      "cost": {
+        "light": 0.31142335000000004,
+        "heavy": 0.0,
+        "rule": 0.1942920000000002,
+        "learned": 0.16680440000000016
+      }
+    }
+  ],
+  "stats": {
+    "deepseek": {
+      "mcnemar_learned_vs_light": {
+        "b": 5,
+        "c": 39,
+        "p_exact": 1.4051624930289082e-07
+      },
+      "mcnemar_learned_vs_rule": {
+        "b": 25,
+        "c": 27,
+        "p_exact": 0.8898839652765544
+      }
+    },
+    "zhipu": {
+      "mcnemar_learned_vs_light": {
+        "b": 8,
+        "c": 17,
+        "p_exact": 0.10775214433670016
+      },
+      "mcnemar_learned_vs_rule": {
+        "b": 13,
+        "c": 12,
+        "p_exact": 1.0
+      }
+    },
+    "silicon": {
+      "mcnemar_learned_vs_light": {
+        "b": 31,
+        "c": 94,
+        "p_exact": 1.4560516882128869e-08
+      },
+      "mcnemar_learned_vs_rule": {
+        "b": 68,
+        "c": 55,
+        "p_exact": 0.27919855497607293
+      }
+    },
+    "stepfun": {
+      "mcnemar_learned_vs_light": {
+        "b": 0,
+        "c": 144,
+        "p_exact": 8.968310171678843e-44
+      },
+      "mcnemar_learned_vs_rule": {
+        "b": 102,
+        "c": 51,
+        "p_exact": 4.554006265861208e-05
+      }
+    },
+    "gitee": {
+      "mcnemar_learned_vs_light": {
+        "b": 0,
+        "c": 0,
+        "p_exact": 1.0
+      },
+      "mcnemar_learned_vs_rule": {
+        "b": 0,
+        "c": 0,
+        "p_exact": 1.0
+      }
+    }
+  },
+  "judgements": {
+    "deepseek": {
+      "V": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.4051624930289082e-07,
+          "p_vs_rule": 0.8898839652765544,
+          "holm": false,
+          "heavy_minus_learned": 3.47,
+          "learned_vs_light_delta": 3.92,
+          "learned_vs_rule_delta": -1.23,
+          "learned_cost": 9.643724000000008,
+          "2xlight": 8.589015999999999,
+          "half_heavy": 7.5837319999999915
+        }
+      },
+      "S": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.4051624930289082e-07,
+          "p_vs_rule": 0.8898839652765544,
+          "holm": false,
+          "heavy_minus_learned": 3.23,
+          "learned_vs_light_delta": 3.82,
+          "learned_vs_rule_delta": -1.13,
+          "learned_cost": 9.643724000000008,
+          "2xlight": 8.589015999999999,
+          "half_heavy": 7.5837319999999915
+        }
+      },
+      "F": {
+        "J1": false,
+        "J2": false,
+        "J3": true,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.4051624930289082e-07,
+          "p_vs_rule": 0.8898839652765544,
+          "holm": false,
+          "heavy_minus_learned": 1.5,
+          "learned_vs_light_delta": 1.9,
+          "learned_vs_rule_delta": 1.35,
+          "learned_cost": 9.643724000000008,
+          "2xlight": 8.589015999999999,
+          "half_heavy": 7.5837319999999915
+        }
+      }
+    },
+    "zhipu": {
+      "V": {
+        "J1": false,
+        "J2": false,
+        "J3": true,
+        "J4": true,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 0.10775214433670016,
+          "p_vs_rule": 1.0,
+          "holm": false,
+          "heavy_minus_learned": -0.19,
+          "learned_vs_light_delta": 0.59,
+          "learned_vs_rule_delta": 0.7,
+          "learned_cost": 11.79927780000002,
+          "2xlight": 0.7230543999999995,
+          "half_heavy": 11.908172500000001
+        }
+      },
+      "S": {
+        "J1": false,
+        "J2": false,
+        "J3": true,
+        "J4": true,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 0.10775214433670016,
+          "p_vs_rule": 1.0,
+          "holm": false,
+          "heavy_minus_learned": -0.37,
+          "learned_vs_light_delta": 0.4,
+          "learned_vs_rule_delta": 0.88,
+          "learned_cost": 11.79927780000002,
+          "2xlight": 0.7230543999999995,
+          "half_heavy": 11.908172500000001
+        }
+      },
+      "F": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": true,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 0.10775214433670016,
+          "p_vs_rule": 1.0,
+          "holm": false,
+          "heavy_minus_learned": 5.7,
+          "learned_vs_light_delta": 6.7,
+          "learned_vs_rule_delta": 0.9,
+          "learned_cost": 11.79927780000002,
+          "2xlight": 0.7230543999999995,
+          "half_heavy": 11.908172500000001
+        }
+      }
+    },
+    "silicon": {
+      "V": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.4560516882128869e-08,
+          "p_vs_rule": 0.27919855497607293,
+          "holm": false,
+          "heavy_minus_learned": 3.6,
+          "learned_vs_light_delta": 3.63,
+          "learned_vs_rule_delta": 1.04,
+          "learned_cost": 1.8099777499999985,
+          "2xlight": 0.617721300000001,
+          "half_heavy": 1.728602750000001
+        }
+      },
+      "S": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.4560516882128869e-08,
+          "p_vs_rule": 0.27919855497607293,
+          "holm": false,
+          "heavy_minus_learned": 3.62,
+          "learned_vs_light_delta": 3.58,
+          "learned_vs_rule_delta": 0.98,
+          "learned_cost": 1.8099777499999985,
+          "2xlight": 0.617721300000001,
+          "half_heavy": 1.728602750000001
+        }
+      },
+      "F": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.4560516882128869e-08,
+          "p_vs_rule": 0.27919855497607293,
+          "holm": false,
+          "heavy_minus_learned": 3.4,
+          "learned_vs_light_delta": 4.25,
+          "learned_vs_rule_delta": 2.25,
+          "learned_cost": 1.8099777499999985,
+          "2xlight": 0.617721300000001,
+          "half_heavy": 1.728602750000001
+        }
+      }
+    },
+    "stepfun": {
+      "V": {
+        "J1": true,
+        "J2": true,
+        "J3": false,
+        "J4": true,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 8.968310171678843e-44,
+          "p_vs_rule": 4.554006265861208e-05,
+          "holm": true,
+          "heavy_minus_learned": 20.85,
+          "learned_vs_light_delta": 15.57,
+          "learned_vs_rule_delta": 4.38,
+          "learned_cost": 12.882444999999997,
+          "2xlight": 1.2377765999999977,
+          "half_heavy": 13.238909999999994
+        }
+      },
+      "S": {
+        "J1": true,
+        "J2": true,
+        "J3": false,
+        "J4": true,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 8.968310171678843e-44,
+          "p_vs_rule": 4.554006265861208e-05,
+          "holm": true,
+          "heavy_minus_learned": 18.7,
+          "learned_vs_light_delta": 16.35,
+          "learned_vs_rule_delta": 4.54,
+          "learned_cost": 12.882444999999997,
+          "2xlight": 1.2377765999999977,
+          "half_heavy": 13.238909999999994
+        }
+      },
+      "F": {
+        "J1": true,
+        "J2": true,
+        "J3": false,
+        "J4": true,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 8.968310171678843e-44,
+          "p_vs_rule": 4.554006265861208e-05,
+          "holm": true,
+          "heavy_minus_learned": 12.28,
+          "learned_vs_light_delta": 13.31,
+          "learned_vs_rule_delta": 6.87,
+          "learned_cost": 12.882444999999997,
+          "2xlight": 1.2377765999999977,
+          "half_heavy": 13.238909999999994
+        }
+      }
+    },
+    "gitee": {
+      "V": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.0,
+          "p_vs_rule": 1.0,
+          "holm": false,
+          "heavy_minus_learned": null,
+          "learned_vs_light_delta": 2.4,
+          "learned_vs_rule_delta": -2.69,
+          "learned_cost": 0.16680440000000016,
+          "2xlight": 0.6228467000000001,
+          "half_heavy": 0.0
+        }
+      },
+      "S": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.0,
+          "p_vs_rule": 1.0,
+          "holm": false,
+          "heavy_minus_learned": null,
+          "learned_vs_light_delta": 2.4,
+          "learned_vs_rule_delta": -2.69,
+          "learned_cost": 0.16680440000000016,
+          "2xlight": 0.6228467000000001,
+          "half_heavy": 0.0
+        }
+      },
+      "F": {
+        "J1": true,
+        "J2": false,
+        "J3": false,
+        "J4": false,
+        "all_pass": false,
+        "detail": {
+          "p_vs_light": 1.0,
+          "p_vs_rule": 1.0,
+          "holm": false,
+          "heavy_minus_learned": null,
+          "learned_vs_light_delta": 3.88,
+          "learned_vs_rule_delta": 0.54,
+          "learned_cost": 0.16680440000000016,
+          "2xlight": 0.6228467000000001,
+          "half_heavy": 0.0
+        }
+      }
+    }
+  },
+  "kind_acc": {
+    "deepseek": {
+      "gsm8k": {
+        "light": 98.6,
+        "heavy": 98.96,
+        "rule": 98.59,
+        "learned": 98.58
+      },
+      "mmlu_hard": {
+        "light": 83.63,
+        "heavy": 96.88,
+        "rule": 90.84,
+        "learned": 91.45
+      },
+      "long_prompt": {
+        "light": 93.7,
+        "heavy": 98.71,
+        "rule": 97.66,
+        "learned": 95.61
+      },
+      "digit_dense": {
+        "light": 93.33,
+        "heavy": 96.47,
+        "rule": 93.6,
+        "learned": 95.49
+      },
+      "mixed": {
+        "light": 75.77,
+        "heavy": 92.17,
+        "rule": 91.32,
+        "learned": 83.27
+      }
+    },
+    "zhipu": {
+      "gsm8k": {
+        "light": 98.56,
+        "heavy": 98.99,
+        "rule": 98.57,
+        "learned": 98.57
+      },
+      "mmlu_hard": {
+        "light": 92.06,
+        "heavy": 92.31,
+        "rule": 90.66,
+        "learned": 93.92
+      },
+      "long_prompt": {
+        "light": 98.87,
+        "heavy": 98.43,
+        "rule": 98.4,
+        "learned": 98.65
+      },
+      "digit_dense": {
+        "light": 94.81,
+        "heavy": 96.62,
+        "rule": 95.53,
+        "learned": 95.92
+      },
+      "mixed": {
+        "light": 93.51,
+        "heavy": 95.11,
+        "rule": 94.51,
+        "learned": 95.11
+      }
+    },
+    "silicon": {
+      "gsm8k": {
+        "light": 92.6,
+        "heavy": 96.4,
+        "rule": 93.0,
+        "learned": 94.4
+      },
+      "mmlu_hard": {
+        "light": 64.52,
+        "heavy": 78.68,
+        "rule": 68.27,
+        "learned": 71.65
+      },
+      "long_prompt": {
+        "light": 85.86,
+        "heavy": 89.92,
+        "rule": 89.87,
+        "learned": 87.76
+      },
+      "digit_dense": {
+        "light": 83.89,
+        "heavy": 94.18,
+        "rule": 85.86,
+        "learned": 89.93
+      },
+      "mixed": {
+        "light": 71.62,
+        "heavy": 77.89,
+        "rule": 75.76,
+        "learned": 74.49
+      }
+    },
+    "stepfun": {
+      "gsm8k": {
+        "light": 75.4,
+        "heavy": 99.51,
+        "rule": 76.67,
+        "learned": 82.83
+      },
+      "mmlu_hard": {
+        "light": 42.54,
+        "heavy": 97.17,
+        "rule": 50.0,
+        "learned": 68.56
+      },
+      "long_prompt": {
+        "light": 72.73,
+        "heavy": 98.81,
+        "rule": 93.52,
+        "learned": 85.67
+      },
+      "digit_dense": {
+        "light": 50.18,
+        "heavy": 97.31,
+        "rule": 57.55,
+        "learned": 74.01
+      },
+      "mixed": {
+        "light": 57.68,
+        "heavy": 96.25,
+        "rule": 79.21,
+        "learned": 67.73
+      }
+    },
+    "gitee": {
+      "gsm8k": {
+        "light": 93.2,
+        "heavy": null,
+        "rule": 93.58,
+        "learned": 94.58
+      },
+      "mmlu_hard": {
+        "light": 66.58,
+        "heavy": null,
+        "rule": 73.16,
+        "learned": 68.89
+      },
+      "long_prompt": {
+        "light": 87.34,
+        "heavy": null,
+        "rule": 86.72,
+        "learned": 88.94
+      },
+      "digit_dense": {
+        "light": 87.58,
+        "heavy": null,
+        "rule": 87.79,
+        "learned": 88.54
+      },
+      "mixed": {
+        "light": 68.23,
+        "heavy": null,
+        "rule": 87.12,
+        "learned": 69.36
+      }
+    }
+  },
+  "truncation": {
+    "deepseek": {
+      "light": 0,
+      "heavy": 211
+    },
+    "zhipu": {
+      "light": 0,
+      "heavy": 280
+    },
+    "silicon": {
+      "light": 0,
+      "heavy": 26
+    },
+    "stepfun": {
+      "light": 0,
+      "heavy": 561
+    },
+    "gitee": {
+      "light": 0,
+      "heavy": 0
+    }
+  },
+  "judge_version": "v3冻结+r45千分位修复(与权威一致)",
+  "methodology": "复测：仅重跑截断题(ct>=1024)/温度0；max_tokens_heavy=2048；light 复用权威缓存；判定/定价_Pricing/统计与 r45/v3.1 完全一致",
+  "note": "新缓存位于 recheck_cache/，未覆盖权威 bench2000_cache；fail=48 条（回退权威缓存）"
+}

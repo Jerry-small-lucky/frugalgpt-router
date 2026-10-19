@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frugalgpt-router"
+version = "0.2.1"
+description = "FrugalGPT-pattern multi-tier LLM routing engine (Community Edition): rule-based tier routing, safety-first tier forcing, OpenAI-compatible API"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Jiarui Wang" }]
+dependencies = []
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.6"]
+api = []  # API 服务仅依赖标准库
+
+[project.urls]
+Homepage = "https://github.com/Jerry-small-lucky/frugalgpt-router"
+
+[project.scripts]
+frugalgpt-demo = "frugalgpt.engine:main"
+
+[tool.setuptools]
+packages = ["frugalgpt"]

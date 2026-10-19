@@ -1,0 +1,52 @@
+{
+  "n": 300,
+  "theta": 0.4,
+  "seed": 42,
+  "models": {
+    "light": "deepseek-flash",
+    "heavy": "deepseek-v4-pro(thinking)"
+  },
+  "heavy_rerun": "P0-C 2026-09-29: 33 truncated 题 max_tokens 4096/2048 重跑",
+  "strategy": {
+    "all_light": {
+      "cost": 0.029746,
+      "acc": 0.8733
+    },
+    "all_heavy": {
+      "cost": 0.326922,
+      "acc": 0.9233
+    },
+    "learned": {
+      "acc": 0.9133,
+      "cost": 0.171501,
+      "mix": {
+        "Heavy": 163,
+        "Light": 137
+      }
+    },
+    "heuristic_rule": {
+      "acc": 0.87,
+      "cost": 0.150491,
+      "mix": {
+        "Light": 230,
+        "Heavy": 70
+      }
+    }
+  },
+  "quality_keep": {
+    "learned": 0.9891,
+    "heuristic_rule": 0.9422
+  },
+  "cost_save_vs_heavy": {
+    "learned": 0.4754,
+    "heuristic_rule": 0.5397
+  },
+  "failure_decomposition": {
+    "heavy_error_total": 23,
+    "truncated": 20,
+    "truly_wrong": 3,
+    "extract_fail": 0
+  },
+  "note": "最终权威口径：Heavy 截断修复后重算。learned=官方 learned_decision(完整prompt+θ=0.4)；heuristic_rule=官方纯规则(len>450或digits>25)。McNemar: learned vs all_light p=0.025, learned vs rule p=0.012, learned vs all_heavy p=0.66。",
+  "generated": "2026-09-29"
+}
